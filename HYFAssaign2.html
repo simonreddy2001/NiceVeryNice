@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--link for displaying social media icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="HYFAssaign2.css">
+  <!--Title for page-->
+  <title>HYF assignment</title>
+</head>
+
+<body>
+  <!--header with navtag and subscribe button-->
+  <header>
+    <div class="topnav">
+      <div><a class="active" href="#home">&#8592;</a>
+        <i class="fa fa-tree"></i><a href="#news" id="home"> Nice, Very Nice</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#themes">Themes</a></li>
+          <li><a href="#templates">Templates</a></li>
+
+          <li><a href="#socialmedia">Social Media</a></li>
+        </ul>
+      </nav>
+      <div><a href="#sub"><button class="btn1"><strong>Subscribe</strong></button></a>
+      </div>
+    </div>
+  </header>
+  <!--main content of page starts here-->
+  <main>
+    <div class="row">
+      <div class="column1">
+        <h1>Creative geeks from Paris</h1>
+      </div>
+      <div class="column">
+        <p class="caption">Nice, Very Nice is a creative agency based in Paris. We're passionate about creating
+          beautiful design for startups & leading brands.We craft stunning design for extraordinary brands.</p>
+      </div>
+    </div>
+    <!--Using figure for showing an image with caption-->
+    <figure><img
+        src="https://i2.wp.com/sparkup.app/wp-content/uploads/2018/08/re%CC%81union-jeunes-managers_re%CC%81duit-3017840545-1535709036220.jpg?w=3480&ssl=1"
+        alt="People meeting image">
+      <figcaption>2018, KEVIN, TOMA AND JONNY IN OUR NEW OFFICE</figcaption>
+    </figure>
+    <!--some other sections of page using Section tag-->
+    <div class="row">
+      <section class="column">
+        <p>Lead forms, subscribe forms, share dialogs, and popups. It's coded, responsive, animated, packed in HTML, CSS
+          and ready to use on your website. We <strong>designed</strong>, <strong>coded</strong>, and
+          <strong>animated</strong> all the widgets, so you don't need to. More time for your product.</p>
+      </section>
+      <section class="column">
+        <p>All brand and UX components--including usage documentation--are managed in a single place. Changes sunc to
+          the whole team, and designers can switch to the latest version or roll back updates at any time. Subscribe
+          users, share posts and products.</p>
+      </section>
+    </div>
+    <!--Subscription for newsletters using input tag with email type-->
+    <p id="sub" class="subscribe">SUBSCRIBE TO OUR NEWSLETTER AND GET UPDATES</p>
+    <div class="row2">
+      <div class="column">
+        <form action="/register"><input name='email' type='email' placeholder="Enter your email address">
+          <button class="btn2">Subscribe</button>
+        </form>
+      </div>
+      <div class="column">
+        <button class="btn3">Tweet</button>
+        <button class="btn3">Share</button>
+      </div>
+    </div>
+  </main>
+  <!--footer with copyright, navtag and socialmedia links-->
+  <footer>
+    <div class="bottomnav">
+      <div><i class="fa fa-tree"></i> &#169; by 2018 <a href="#home"> Nice, Very Nice</a></div>
+      <!--section of navigation links   -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#Licencepage">License</a>
+          </li>
+          <li>
+            <a href="#Returnspage">Returns</a>
+          </li>
+          <li>
+            <a href="#Termspage">Terms</a>
+          </li>
+          <li>
+            <a href="#home">About</a>
+          </li>
+          <li>
+            <a href="#Contactpage">Support</a>
+          </li>
+        </ul>
+      </nav>
+      <!--section of socialmedia links   -->
+      <ul id="socialmedia" class="socmed">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-android"></a></li>
+        <li><a href="#" class="fa fa-dribbble"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
